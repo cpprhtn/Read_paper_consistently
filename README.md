@@ -3,7 +3,7 @@
 ### CV
 |N|Paper Title|URL|Summary|
 |:---:|:---:|:---:|:---:|
-|1|Encoding in Style|https://|dasf|
+|1|Encoding in Style|https://|-|
 
 ### NLP
 
