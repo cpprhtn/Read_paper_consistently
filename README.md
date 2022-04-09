@@ -1,14 +1,43 @@
 # Read_paper_consistently
  
-### CV
-|N|Paper Title|URL|Summary|
-|:---:|:---:|:---:|:---:|
-|1|Encoding in Style|https://|-|
+### Conference Ranking 
 
-### NLP
+Read all the relevant papers from major top proceedings/journals. Read, read and read!  
+Find new ideas, Do solid research, Publish top papers, Get professional internships/jobs!  
+Rank 1 (CCF-A): SIGIR, WWW, ACL, KDD, AAAI, IJCAI, ICML, NIPS, ICLR.  
+Rank 2 (CCF-B): CIKM, WSDM, EMNLP.  
+Rank 3 (CCF-C): ECIR, NAACL.  
+SIGIR-sponsored conferences:  SIGIR, CIKM, WSDM, ICTIR, CHIIR.  
+A better computer science department ranking list based on top conference publications: http://csrankings.org.  
 
-### ETC
-|N|Paper Title|URL|Summary|
-|:---:|:---:|:---:|:---:|
-|1|Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift|https://arxiv.org/abs/1502.03167|딥러닝 모델 학습 시에 각 layer의 input distribution이 계속해서 변동하는 internal covariate shift 현상이 발생하고, 이 영향은 딥러닝 모델이 깊어질수록 나비효과처럼 커져 모델의 학습을 느리게 만들거나 gradient exploding/vanishing과 같이 모델의 학습을 어렵게 만드는 현상으로 나타난다. 이러한 internal covariate shift를 해결하기 위해 각 layer의 input distribution을 mini batch에 기반하여 normalization하는 Batch Normalization 기법을 제안한다.|
+[Best Paper Awards in Top Computer Science Conferences](https://jeffhuang.com/best_paper_awards/)   
+[Google CS Conference&Journal Ranking (IR&Search&Web&DB)](https://scholar.google.com.sg/citations?view_op=top_venues&hl=en&vq=eng_databasesinformationsystems)  
+[Google CS Conference&Journal Ranking (Core IR)](https://scholar.google.ch/citations?hl=en&view_op=search_venues&vq=%22AIRS%22+OR+%22WWW%22+OR+%22information+retrieval%22+OR+%22Information+and+Knowledge+Management%22+OR+%22SIGIR%22+OR+%22information+science+and+technology%22+OR+%22web+search%22+OR+%22TOIS%22+OR+%22information+processing+%26+Management%22+OR+%22Transactions+on+Knowledge+and+Data+Engineering%22+OR+%22TWEB%22)  
+[Google CS Conference&Journal Ranking (NLP)](https://scholar.google.com.sg/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics)  
+[Google CS Conference&Journal Ranking (DM)](https://scholar.google.com.sg/citations?view_op=top_venues&hl=en&vq=eng_datamininganalysis)  
+[Google CS Conference&Journal Ranking (ML&AI)](https://scholar.google.com.sg/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence)  
 
+Most Cited Papers in Top Conferences in Recent 5 Years:  
+IR/Web: SIGIR, WWW, CIKM, WSDM  
+NLP: ACL, EMNLP, NAACL  
+ML/DM: ICML, NIPS, KDD, AAAI, IJCAI, ICLR  
+Most Cited Computer Scientists by H Index  
+Citations Statistics of Top Computer Science Researchers by Prof. Jimmy Lin  
+Number of submissions and acceptance rate of NLP conferences  
+
+### Journal Ranking   
+
+#### Rank 1  
+ACM Transactions on Information System (TOIS)  
+Artificial Intelligence (AIJ)  
+IEEE Transactions on Knowledge and Data Engineering (TKDE)  
+Computational Linguistics (CL)  
+Journal of Machine Learning Research (JMLR)  
+IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)  
+
+#### Rank 2  
+ACM Transactions on Intelligent Systems and Technology(TIST)  
+Information Processing & Management (IPM)  
+Information Retrieval (IRJ)  
+Journal of the American Society for Information Science and Technology (JASIST)  
+>>>>>>> Stashed changes
