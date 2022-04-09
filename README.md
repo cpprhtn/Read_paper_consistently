@@ -2,20 +2,18 @@
  
 ### Conference Ranking 
 
-Read all the relevant papers from major top proceedings/journals. Read, read and read!  
-Find new ideas, Do solid research, Publish top papers, Get professional internships/jobs!  
-Rank 1 (CCF-A): SIGIR, WWW, ACL, KDD, AAAI, IJCAI, ICML, NIPS, ICLR.  
-Rank 2 (CCF-B): CIKM, WSDM, EMNLP.  
-Rank 3 (CCF-C): ECIR, NAACL.  
-SIGIR-sponsored conferences:  SIGIR, CIKM, WSDM, ICTIR, CHIIR.  
-A better computer science department ranking list based on top conference publications: http://csrankings.org.  
-
 [Best Paper Awards in Top Computer Science Conferences](https://jeffhuang.com/best_paper_awards/)   
 [Google CS Conference&Journal Ranking (IR&Search&Web&DB)](https://scholar.google.com.sg/citations?view_op=top_venues&hl=en&vq=eng_databasesinformationsystems)  
 [Google CS Conference&Journal Ranking (Core IR)](https://scholar.google.ch/citations?hl=en&view_op=search_venues&vq=%22AIRS%22+OR+%22WWW%22+OR+%22information+retrieval%22+OR+%22Information+and+Knowledge+Management%22+OR+%22SIGIR%22+OR+%22information+science+and+technology%22+OR+%22web+search%22+OR+%22TOIS%22+OR+%22information+processing+%26+Management%22+OR+%22Transactions+on+Knowledge+and+Data+Engineering%22+OR+%22TWEB%22)  
 [Google CS Conference&Journal Ranking (NLP)](https://scholar.google.com.sg/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics)  
 [Google CS Conference&Journal Ranking (DM)](https://scholar.google.com.sg/citations?view_op=top_venues&hl=en&vq=eng_datamininganalysis)  
 [Google CS Conference&Journal Ranking (ML&AI)](https://scholar.google.com.sg/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence)  
+
+Read all the relevant papers from major top proceedings/journals. 
+Rank 1 (CCF-A): SIGIR, WWW, ACL, KDD, AAAI, IJCAI, ICML, NIPS, ICLR.  
+Rank 2 (CCF-B): CIKM, WSDM, EMNLP.  
+Rank 3 (CCF-C): ECIR, NAACL.  
+SIGIR-sponsored conferences:  SIGIR, CIKM, WSDM, ICTIR, CHIIR.  
 
 Most Cited Papers in Top Conferences in Recent 5 Years:  
 IR/Web: SIGIR, WWW, CIKM, WSDM  
@@ -40,4 +38,3 @@ ACM Transactions on Intelligent Systems and Technology(TIST)
 Information Processing & Management (IPM)  
 Information Retrieval (IRJ)  
 Journal of the American Society for Information Science and Technology (JASIST)  
->>>>>>> Stashed changes
