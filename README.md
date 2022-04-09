@@ -10,4 +10,5 @@
 ### ETC
 |N|Paper Title|URL|Summary|
 |:---:|:---:|:---:|:---:|
-|1|Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift|https://arxiv.org/abs/1502.03167|µö·¯´× ¸ğµ¨ ÇĞ½À ½Ã¿¡ °¢ layerÀÇ input distributionÀÌ °è¼ÓÇØ¼­ º¯µ¿ÇÏ´Â internal covariate shift Çö»óÀÌ ¹ß»ıÇÏ°í, ÀÌ ¿µÇâÀº µö·¯´× ¸ğµ¨ÀÌ ±í¾îÁú¼ö·Ï ³ªºñÈ¿°úÃ³·³ Ä¿Á® ¸ğµ¨ÀÇ ÇĞ½ÀÀ» ´À¸®°Ô ¸¸µé°Å³ª gradient exploding/vanishing°ú °°ÀÌ ¸ğµ¨ÀÇ ÇĞ½ÀÀ» ¾î·Æ°Ô ¸¸µå´Â Çö»óÀ¸·Î ³ªÅ¸³­´Ù. ÀÌ·¯ÇÑ internal covariate shift¸¦ ÇØ°áÇÏ±â À§ÇØ °¢ layerÀÇ input distributionÀ» mini batch¿¡ ±â¹İÇÏ¿© normalizationÇÏ´Â Batch Normalization ±â¹ıÀ» Á¦¾ÈÇÑ´Ù.|
+|1|Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift|https://arxiv.org/abs/1502.03167|ë”¥ëŸ¬ë‹ ëª¨ë¸ í•™ìŠµ ì‹œì— ê° layerì˜ input distributionì´ ê³„ì†í•´ì„œ ë³€ë™í•˜ëŠ” internal covariate shift í˜„ìƒì´ ë°œìƒí•˜ê³ , ì´ ì˜í–¥ì€ ë”¥ëŸ¬ë‹ ëª¨ë¸ì´ ê¹Šì–´ì§ˆìˆ˜ë¡ ë‚˜ë¹„íš¨ê³¼ì²˜ëŸ¼ ì»¤ì ¸ ëª¨ë¸ì˜ í•™ìŠµì„ ëŠë¦¬ê²Œ ë§Œë“¤ê±°ë‚˜ gradient exploding/vanishingê³¼ ê°™ì´ ëª¨ë¸ì˜ í•™ìŠµì„ ì–´ë µê²Œ ë§Œë“œëŠ” í˜„ìƒìœ¼ë¡œ ë‚˜íƒ€ë‚œë‹¤. ì´ëŸ¬í•œ internal covariate shiftë¥¼ í•´ê²°í•˜ê¸° ìœ„í•´ ê° layerì˜ input distributionì„ mini batchì— ê¸°ë°˜í•˜ì—¬ normalizationí•˜ëŠ” Batch Normalization ê¸°ë²•ì„ ì œì•ˆí•œë‹¤.|
+
