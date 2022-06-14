@@ -1,13 +1,8 @@
 # Read_paper_consistently
 
-### ÃÖ½Å AI ³í¹®
+### ìµœì‹  AI ë…¼ë¬¸
 https://paperswithcode.com/methods
 
-### °ü·Ã ±â¼úºí·Î±×
-[°í·Á´ë ³í¹®¸®ºä](https://www.notion.so/c3b3474d18ef4304b23ea360367a5137?v=5d763ad5773f44eb950f49de7d7671bd)
-[³×ÀÌ¹ö Å¬·Î¹Ù](https://clova-ai.blog/publication-list/)  
-[Ä«Ä«¿Àºê·¹ÀÎ](https://github.com/kakaobrain)
- 
 ### Conference Ranking 
 
 [Best Paper Awards in Top Computer Science Conferences](https://jeffhuang.com/best_paper_awards/)   
