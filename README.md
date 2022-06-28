@@ -1,11 +1,11 @@
 # Read_paper_consistently
 
 ## Where to read AI papers
-[paperswithcode](https://paperswithcode.com/methods)  
 [NIPS](https://nips.cc/)  
 [ICML](https://icml.cc/)  
 [ICLR](https://iclr.cc/)  
 [ML subreddit](https://www.reddit.com/r/MachineLearning/)  
+[paperswithcode](https://paperswithcode.com/methods)  
 
 ## Read paper
 ### What to Read paper
