@@ -1,22 +1,22 @@
 # Read_paper_consistently
 
-### Where to read AI papers
-[paperswithcode](https://paperswithcode.com/methods)
-[NIPS](https://nips.cc/)
-[ICML](https://icml.cc/)
-[ICLR](https://iclr.cc/)
-[ML subreddit](https://www.reddit.com/r/MachineLearning/)
+## Where to read AI papers
+[paperswithcode](https://paperswithcode.com/methods)  
+[NIPS](https://nips.cc/)  
+[ICML](https://icml.cc/)  
+[ICLR](https://iclr.cc/)  
+[ML subreddit](https://www.reddit.com/r/MachineLearning/)  
 
-### Read paper
-#### What to Read paper
+## Read paper
+### What to Read paper
 1. Make a list of papers to read
 2. Add or remove papers from the list.
 
-#### How to Read paper
+### How to Read paper
 1. Look at the title, summary, and chart of the paper first.
 2. Read the introduction, conclusion, and chart and omit unnecessary parts.
 
-#### Feedback
+### Feedback
 1. What did the author want to accomplish?
 2. What are the important factors in the approach of this study?
 3. Can you use this paper yourself? 
@@ -24,7 +24,7 @@
 
 
 
-### Conference Ranking 
+## Conference Ranking 
 [Best Paper Awards in Top Computer Science Conferences](https://jeffhuang.com/best_paper_awards/)   
 [Google CS Conference&Journal Ranking (IR&Search&Web&DB)](https://scholar.google.com.sg/citations?view_op=top_venues&hl=en&vq=eng_databasesinformationsystems)  
 [Google CS Conference&Journal Ranking (Core IR)](https://scholar.google.ch/citations?hl=en&view_op=search_venues&vq=%22AIRS%22+OR+%22WWW%22+OR+%22information+retrieval%22+OR+%22Information+and+Knowledge+Management%22+OR+%22SIGIR%22+OR+%22information+science+and+technology%22+OR+%22web+search%22+OR+%22TOIS%22+OR+%22information+processing+%26+Management%22+OR+%22Transactions+on+Knowledge+and+Data+Engineering%22+OR+%22TWEB%22)  
@@ -46,9 +46,9 @@ Most Cited Computer Scientists by H Index
 Citations Statistics of Top Computer Science Researchers by Prof. Jimmy Lin  
 Number of submissions and acceptance rate of NLP conferences  
 
-### Journal Ranking   
+## Journal Ranking   
 
-#### Rank 1  
+### Rank 1  
 ACM Transactions on Information System (TOIS)  
 Artificial Intelligence (AIJ)  
 IEEE Transactions on Knowledge and Data Engineering (TKDE)  
@@ -56,7 +56,7 @@ Computational Linguistics (CL)
 Journal of Machine Learning Research (JMLR)  
 IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)  
 
-#### Rank 2  
+### Rank 2  
 ACM Transactions on Intelligent Systems and Technology(TIST)  
 Information Processing & Management (IPM)  
 Information Retrieval (IRJ)  
