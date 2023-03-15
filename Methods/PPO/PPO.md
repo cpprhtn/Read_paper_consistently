@@ -1,3 +1,5 @@
+## 전체 학습 구조
+
 1. state, action, reward, old policy의 batch를 초기화
 ```py
 batch_state, batch_action, batch_reward = [], [], []
@@ -77,4 +79,29 @@ for _ in range(self.EPOCHS):
          tf.convert_to_tensor(gaes, dtype=tf.float32))
     self.critic_learn(tf.convert_to_tensor(states, dtype=tf.float32),
          tf.convert_to_tensor(y_i, dtype=tf.float32))
+```
+
+## Actor 신경망 학습
+1. Actor 신경만으로부터 현재의 log-policy pdf를 계산
+```py
+mu_a, std_a = self.actor(states, training=True)
+log_policy_pdf = self.log_pdf(mu_a, std_a, actions)
+```
+
+2. 현재 policy와 이전 policy의 ratio와 클리핑된 ratio 계산
+```py
+ratio = tf.exp(log_policy_pdf - log_old_policy_pdf)
+clipped_ratio = tf.clip_by_value(ratio, 1.0-self.RATIO_CLIPPING, 1.0+self.RATIO_CLIPPING)
+```
+3. 대체 목적함수의 loss 계산
+```py
+surrogate = -tf.minimum(ratio * gaes, clipped_ratio * gaes)
+loss = tf.reduce_mean(surrogate)
+```
+
+## Critic 신경망 학습
+1. TD의 loss 계산
+```py
+td_hat = self.critic(states, training=True)
+loss = tf.reduce_mean(tf.square(td_targets-td_hat))
 ```
