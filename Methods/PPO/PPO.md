@@ -82,7 +82,7 @@ for _ in range(self.EPOCHS):
 ```
 
 ## Actor 신경망 학습
-1. Actor 신경만으로부터 현재의 log-policy pdf를 계산
+1. Actor 신경망으로부터 현재의 log-policy pdf를 계산
 ```py
 mu_a, std_a = self.actor(states, training=True)
 log_policy_pdf = self.log_pdf(mu_a, std_a, actions)
