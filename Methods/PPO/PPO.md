@@ -27,3 +27,41 @@ log_old_policy_pdf = -0.5 * (action - mu_old) ** 2 / var_old - 0.5 * np.log(var_
 log_old_policy_pdf = np.sum(log_old_policy_pdf)
 ```
 
+6. action을 실행하여 reword와 next state x를 얻는다, done=1이 되면 episode가 종료
+```py
+next_state, reward, done, _ = self.env.step(action)
+```
+
+7. 학습용 reward 범위 조정
+```py
+train_reward = (reward + 8) / 8
+```
+
+8. 배치에 저장
+```py
+batch_state.append(state)
+batch_action.append(action)
+batch_reward.append(train_reward)
+batch_log_old_policy_pdf.append(log_old_policy_pdf)
+```
+
+9. 배치가 채워질 때까지 학습하지 않고 저장만 계속
+```py
+if len(batch_state) < self.BATCH_SIZE:
+    # 상태 업데이트
+    state = next_state
+    episode_reward += reward[0]
+    time += 1
+    continue
+```
+
+10. 배치가 채워지면, 데이터를 추출 후 배치는 초기화
+```py
+states = self.unpack_batch(batch_state)
+actions = self.unpack_batch(batch_action)
+rewards = self.unpack_batch(batch_reward)
+log_old_policy_pdfs = self.unpack_batch(batch_log_old_policy_pdf)
+
+batch_state, batch_action, batch_reward, = [], [], []
+batch_log_old_policy_pdf = []
+```
