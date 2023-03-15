@@ -32,12 +32,7 @@ log_old_policy_pdf = np.sum(log_old_policy_pdf)
 next_state, reward, done, _ = self.env.step(action)
 ```
 
-7. 학습용 reward 범위 조정
-```py
-train_reward = (reward + 8) / 8
-```
-
-8. 배치에 저장
+7. 배치에 저장
 ```py
 batch_state.append(state)
 batch_action.append(action)
@@ -45,7 +40,7 @@ batch_reward.append(train_reward)
 batch_log_old_policy_pdf.append(log_old_policy_pdf)
 ```
 
-9. 배치가 채워질 때까지 학습하지 않고 저장만 계속
+8. 배치가 채워질 때까지 학습하지 않고 저장만 계속
 ```py
 if len(batch_state) < self.BATCH_SIZE:
     # 상태 업데이트
@@ -55,7 +50,7 @@ if len(batch_state) < self.BATCH_SIZE:
     continue
 ```
 
-10. 배치가 채워지면, 데이터를 추출 후 배치는 초기화
+9. 배치가 채워지면, 데이터를 추출 후 배치는 초기화
 ```py
 states = self.unpack_batch(batch_state)
 actions = self.unpack_batch(batch_action)
@@ -64,4 +59,22 @@ log_old_policy_pdfs = self.unpack_batch(batch_log_old_policy_pdf)
 
 batch_state, batch_action, batch_reward, = [], [], []
 batch_log_old_policy_pdf = []
+```
+
+10. Critic 신경망을 이용하여 GAE 계산
+```py
+next_v_value = self.critic(tf.convert_to_tensor([next_state], dtype=tf.float32))
+v_values = self.critic(tf.convert_to_tensor(states, dtype=tf.float32))
+gaes, y_i = self.gae_target(rewards, v_values.numpy(), next_v_value.numpy(), done)
+```
+
+11. Epoch만큼 Training
+```py
+for _ in range(self.EPOCHS):
+    self.actor_learn(tf.convert_to_tensor(log_old_policy_pdfs, dtype=tf.float32),
+         tf.convert_to_tensor(states, dtype=tf.float32),
+         tf.convert_to_tensor(actions, dtype=tf.float32),
+         tf.convert_to_tensor(gaes, dtype=tf.float32))
+    self.critic_learn(tf.convert_to_tensor(states, dtype=tf.float32),
+         tf.convert_to_tensor(y_i, dtype=tf.float32))
 ```
